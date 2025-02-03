@@ -1,1 +1,1 @@
-console.log('Hello World! Teste2 - 4 -6 -8');
+console.log('Hello World! Teste2 - 4 -6 -8 - 10');
