@@ -13,13 +13,6 @@ if errorlevel 1 (
     exit /b
 )
 
-:: Verifica se está dentro de um repositório Git
-git rev-parse --is-inside-work-tree >nul 2>&1
-if errorlevel 1 (
-    echo ERRO: Este diretório não é um repositório Git.
-    pause
-    exit /b
-)
 
 :: Executa git pull
 echo.
