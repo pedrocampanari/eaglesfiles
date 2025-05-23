@@ -18,7 +18,7 @@ if errorlevel 1 (
 echo.
 echo Atualizando repositório local com: git pull
 echo ===============================
-git pull
+git pull origin main
 if errorlevel 1 (
     echo ERRO ao executar git pull. Verifique conflitos ou problemas de rede.
     pause
@@ -60,7 +60,7 @@ if errorlevel 1 (
 echo.
 echo Enviando para o repositório remoto com: git push
 echo ===============================
-git push
+git push origin main
 if errorlevel 1 (
     echo ERRO ao fazer push para o repositório remoto.
     pause
